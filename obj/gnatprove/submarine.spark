@@ -1,0 +1,185 @@
+{
+  "spark": [
+    {
+      "name": "Submarine",
+      "sloc": [
+        {
+          "file": "submarine.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Submarine.checkDoors",
+      "sloc": [
+        {
+          "file": "submarine.ads",
+          "line": 22
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "submarine.adb",
+      "line": 10,
+      "col": 16,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine.checkDoors",
+        "sloc": [
+          {
+            "file": "submarine.ads",
+            "line": 22
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "submarine__flow__25.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "submarine.adb",
+      "line": 10,
+      "col": 19,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine.checkDoors",
+        "sloc": [
+          {
+            "file": "submarine.ads",
+            "line": 22
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "submarine__flow__26.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "submarine.ads",
+      "line": 23,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine.checkDoors",
+        "sloc": [
+          {
+            "file": "submarine.ads",
+            "line": 22
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 117,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine.ads",
+      "check_line": 23,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Submarine.checkDoors",
+          "sloc": [
+            {
+              "file": "submarine.ads",
+              "line": 22
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine.checkDoors",
+          "sloc": [
+            {
+              "file": "submarine.ads",
+              "line": 22
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Submarine.checkDoors",
+          "sloc": [
+            {
+              "file": "submarine.ads",
+              "line": 22
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Submarine",
+          "sloc": [
+            {
+              "file": "submarine.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 2.19256005948409E-04,
+    "globals (basic)": 3.37316014338285E-04,
+    "globals/properties (advanced)": 5.33983984496444E-04,
+    "flow analysis": 1.85523903928697E-03,
+    "codepeer results": 4.21699996877578E-06,
+    "init_why_sections": 1.78898000740446E-04,
+    "translation of standard": 3.17559204995632E-03,
+    "translation of compilation unit": 6.27498608082533E-03,
+    "proof": 7.53544092178345E-01
+  }
+}
