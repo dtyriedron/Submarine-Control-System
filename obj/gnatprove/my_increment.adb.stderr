@@ -1,0 +1,1 @@
+my_increment.ads:9:14: medium: postcondition might fail, cannot prove Bad_Incr'Result > m (e.g. when Bad_Incr'Result = 10 and m = 10)

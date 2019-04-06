@@ -1,0 +1,252 @@
+{
+  "spark": [
+    {
+      "name": "My_Increment",
+      "sloc": [
+        {
+          "file": "my_increment.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "My_Increment.Bad_Incr",
+      "sloc": [
+        {
+          "file": "my_increment.ads",
+          "line": 7
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+    {
+      "file": "my_increment.adb",
+      "line": 6,
+      "col": 39,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "My_Increment.Bad_Incr",
+        "sloc": [
+          {
+            "file": "my_increment.ads",
+            "line": 7
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "my_increment.adb",
+      "check_line": 6,
+      "check_col": 39,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "my_increment.ads",
+      "line": 9,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "My_Increment.Bad_Incr",
+        "sloc": [
+          {
+            "file": "my_increment.ads",
+            "line": 7
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (none)",
+              "steps": 17,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (none)",
+              "steps": 23,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Invalid",
+              "steps": 1557,
+              "time": 0
+            },
+            "altergo": {
+              "result": "Unknown (none)",
+              "steps": -1,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                  "CVC4": {
+                    "result": "Valid",
+                    "steps": 5,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4": {
+                    "result": "Valid",
+                    "steps": 13,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4": {
+                    "result": "Unknown (none)",
+                    "steps": 14,
+                    "time": 0
+                  },
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 14,
+                    "time": 0
+                  },
+                  "Z3": {
+                    "result": "Invalid",
+                    "steps": 986,
+                    "time": 0
+                  },
+                  "altergo": {
+                    "result": "Unknown (none)",
+                    "steps": -1,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "my_increment.ads",
+      "check_line": 9,
+      "check_col": 14,
+      "tracefile": "my_increment.ads_9_14_postcondition.trace",
+      "cntexmp": {
+        "my_increment.adb": {
+          "6": [
+            {
+              "name": "Bad_Incr'Result",
+              "value": "10",
+              "kind": "variable"
+            }
+          ],
+          "7": [
+            {
+              "name": "Bad_Incr'Result",
+              "value": "10",
+              "kind": "variable"
+            }
+          ]
+        },
+        "my_increment.ads": {
+          "7": [
+            {
+              "name": "m",
+              "value": "10",
+              "kind": "variable"
+            }
+          ],
+          "9": [
+            {
+              "name": "Bad_Incr'Result",
+              "value": "10",
+              "kind": "variable"
+            },
+            {
+              "name": "m",
+              "value": "10",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 0,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "My_Increment.Bad_Incr",
+          "sloc": [
+            {
+              "file": "my_increment.ads",
+              "line": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "My_Increment",
+          "sloc": [
+            {
+              "file": "my_increment.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 1.80403003469110E-04,
+    "globals (basic)": 2.46362003963441E-04,
+    "globals/properties (advanced)": 4.23151010181755E-04,
+    "flow analysis": 1.27547699958086E-03,
+    "codepeer results": 4.21699996877578E-06,
+    "init_why_sections": 1.79199007106945E-04,
+    "translation of standard": 2.75213900022209E-03,
+    "translation of compilation unit": 7.13183020707220E-04,
+    "proof": 7.33429491519928E-01
+  }
+}
