@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
@@ -10,7 +9,7 @@
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\sunbmarine.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 26" line=" 31" >
+    <file_marker column=" 6" line=" 23" >
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
     </file_marker>
@@ -26,19 +25,19 @@
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\sunbmarine.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 10" >
+    <file_marker column=" 43" line=" 15" >
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 15" >
+    <file_marker column=" 19" line=" 17" >
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 26" line=" 31" >
+    <file_marker column=" 6" line=" 23" >
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 26" line=" 31" >
+    <file_marker column=" 6" line=" 23" >
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
     </file_marker>
@@ -50,7 +49,7 @@
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\sunbmarine.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 10" >
+    <file_marker column=" 43" line=" 15" >
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
     </file_marker>
@@ -58,9 +57,125 @@
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\sunbmarine.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 14" line=" 1" >
+    <file_marker column=" 14" line=" 1" >
       <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
       <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\sunbmarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 15" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 18" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 23" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 15" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 22" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 22" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 23" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 23" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 23" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 22" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 6" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 20" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 10" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 22" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 23" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 22" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 23" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 6" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 22" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 13" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 6" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 10" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 18" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 11" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 13" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 30" line=" 11" >
+      <vfs_project>C:\Users\40203\Desktop\Submarine_Control_System\submarine.gpr</vfs_project>
+      <vfs_file>C:\Users\40203\Desktop\Submarine_Control_System\src\submarine.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >
