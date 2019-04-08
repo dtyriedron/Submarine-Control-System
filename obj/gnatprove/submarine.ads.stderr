@@ -1,2 +1,0 @@
-submarine.ads:32:06: aspect "Pre" for "checkDoors" previously given at line 31
-submarine.ads:34:06: aspect "Post" for "checkDoors" previously given at line 33

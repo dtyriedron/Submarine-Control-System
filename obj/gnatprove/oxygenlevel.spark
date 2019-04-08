@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "oxygenLevel.decrementoxygen",
+      "sloc": [
+        {
+          "file": "oxygenlevel.ads",
+          "line": 7
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.16554998385254E-04,
+    "globals (basic)": 1.12036999780685E-04,
+    "globals/properties (advanced)": 2.93646007776260E-04,
+    "flow analysis": 3.73449984181207E-05,
+    "codepeer results": 3.91599996873992E-06,
+    "init_why_sections": 1.67152000358328E-04,
+    "translation of standard": 2.50306795351207E-03,
+    "translation of compilation unit": 7.91187980212271E-04,
+    "proof": 2.70999998974730E-06
+  }
+}

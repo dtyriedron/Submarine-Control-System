@@ -1,0 +1,41 @@
+{
+  "spark": [
+    {
+      "name": "doors.closeDoors",
+      "sloc": [
+        {
+          "file": "doors.ads",
+          "line": 27
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "doors.closeDoorsInvariant",
+      "sloc": [
+        {
+          "file": "doors.ads",
+          "line": 31
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.43961995490827E-04,
+    "globals (basic)": 1.38239003717899E-04,
+    "globals/properties (advanced)": 3.50266986060888E-04,
+    "flow analysis": 4.18630006606691E-05,
+    "codepeer results": 3.61399997927947E-06,
+    "init_why_sections": 1.69862993061543E-04,
+    "translation of standard": 2.63076694682240E-03,
+    "translation of compilation unit": 1.86096201650798E-03,
+    "proof": 1.20499998956802E-06
+  }
+}
