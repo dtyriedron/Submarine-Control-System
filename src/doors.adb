@@ -1,6 +1,6 @@
 package body doors is
 
-   procedure closeDoors(ds : in out Doors) is
+   procedure closeDoors(ds : in out DoorsArray) is
       a : DR_Index := ds'First;
       b : DR_Index := ds'Last;
    begin

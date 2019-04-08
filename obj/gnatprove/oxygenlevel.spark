@@ -5,7 +5,7 @@
       "sloc": [
         {
           "file": "oxygenlevel.ads",
-          "line": 7
+          "line": 10
         }
       ],
       "spark": "no"
@@ -18,14 +18,14 @@
   "assumptions": [
   ],
   "timings": {
-    "marking": 1.16554998385254E-04,
-    "globals (basic)": 1.12036999780685E-04,
-    "globals/properties (advanced)": 2.93646007776260E-04,
-    "flow analysis": 3.73449984181207E-05,
-    "codepeer results": 3.91599996873992E-06,
-    "init_why_sections": 1.67152000358328E-04,
-    "translation of standard": 2.50306795351207E-03,
-    "translation of compilation unit": 7.91187980212271E-04,
-    "proof": 2.70999998974730E-06
+    "marking": 1.43684796057642E-03,
+    "globals (basic)": 3.01320105791092E-01,
+    "globals/properties (advanced)": 2.74409167468548E-02,
+    "flow analysis": 1.17821997264400E-04,
+    "codepeer results": 9.85200040304335E-06,
+    "init_why_sections": 2.63558991719037E-04,
+    "translation of standard": 4.04411088675261E-03,
+    "translation of compilation unit": 4.17211316525936E-02,
+    "proof": 2.87300008494640E-06
   }
 }

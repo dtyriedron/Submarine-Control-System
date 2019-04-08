@@ -1,33 +1,33 @@
 Summary of SPARK analysis
 =========================
 
--------------------------------------------------------------------------------------------------------
-SPARK Analysis results        Total       Flow   Interval   CodePeer     Provers   Justified   Unproved
--------------------------------------------------------------------------------------------------------
-Data Dependencies                 .          .          .          .           .           .          .
-Flow Dependencies                 .          .          .          .           .           .          .
-Initialization                    2          2          .          .           .           .          .
-Non-Aliasing                      .          .          .          .           .           .          .
-Run-time Checks                   2          .          .          .    2 (CVC4)           .          .
-Assertions                        .          .          .          .           .           .          .
-Functional Contracts              2          .          .          .    1 (CVC4)           .          1
-LSP Verification                  .          .          .          .           .           .          .
--------------------------------------------------------------------------------------------------------
-Total                             6    2 (33%)          .          .     3 (50%)           .    1 (17%)
+------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   Interval   CodePeer     Provers   Justified   Unproved
+------------------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .          .           .           .          .
+Flow Dependencies                 .         .          .          .           .           .          .
+Initialization                    .         .          .          .           .           .          .
+Non-Aliasing                      .         .          .          .           .           .          .
+Run-time Checks                   4         .          .          .    4 (CVC4)           .          .
+Assertions                        .         .          .          .           .           .          .
+Functional Contracts              2         .          .          .    2 (CVC4)           .          .
+LSP Verification                  .         .          .          .           .           .          .
+------------------------------------------------------------------------------------------------------
+Total                             6         .          .          .    6 (100%)           .          .
 
 
 Analyzed 4 units
-in unit doors, 0 subprograms and packages out of 2 analyzed
+in unit doors, 0 subprograms and packages out of 3 analyzed
+  doors.closeDoorInvariant at doors.ads:31 skipped
   doors.closeDoors at doors.ads:27 skipped
-  doors.closeDoorsInvariant at doors.ads:31 skipped
+  doors.closeDoorsInvariant at doors.ads:34 skipped
 in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:1 skipped
 in unit oxygenlevel, 0 subprograms and packages out of 1 analyzed
-  oxygenLevel.decrementoxygen at oxygenlevel.ads:7 skipped
-in unit submarine, 6 subprograms and packages out of 6 analyzed
-  Submarine at submarine.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine.closeDoors at submarine.ads:48 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine.closeDoorsInvariant at submarine.ads:51 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine.diveSub at submarine.ads:55 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 2 checks out of 3 proved
-  Submarine.resurfaceSub at submarine.ads:60 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine.warnSub at submarine.ads:64 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  oxygenLevel.decrementoxygen at oxygenlevel.ads:10 skipped
+in unit submarine, 5 subprograms and packages out of 5 analyzed
+  Submarine at submarine.ads:4 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Submarine.closeDoorInvariant at submarine.ads:27 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Submarine.closeDoorsInvariant at submarine.ads:30 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Submarine.decreaseDepth at submarine.ads:33 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine.increaseDepth at submarine.ads:37 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)

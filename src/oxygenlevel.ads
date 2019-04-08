@@ -1,19 +1,21 @@
-with doors use doors;
+with doors; use doors;
+
 
 package oxygenLevel is
-
+  
    
    -- integer to store the oxygen level max is 6
-   type oxygenLevel is new Integer;
+   type oxygenLevelInt is new Integer;
    
-   procedure decrementoxygen (oxylvl : in out oxygenLevel) with
+   procedure decrementoxygen (oxylvl : in out oxygenLevelInt) with
      Depends => (oxylvl => oxylvl),
-     Pre => oxylvl > oxygenLevel'Last,
-     Post => oxylvl = oxylvl'Old -1 and oxylvl>=1;
+     Pre => oxylvl < 6,
+     Post => oxylvl = oxylvl'Old -1 and oxylvl>=0;
    
-   procedure resurface (oxylvl : in out oxgenLevel) with
-     Depends => (oxylvl => oxylvl),
-     Pre => 
-     
+--     procedure warnOxygen (oxylvl : in out oxygenLevelInt) with
+--       Depends => (oxylvl => oxylvl),
+--       Pre => oxylvl < 6,
+--       Post => oxylvl < 3;
+   
 
 end oxygenLevel;

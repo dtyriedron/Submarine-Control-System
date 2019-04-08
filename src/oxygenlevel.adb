@@ -1,15 +1,16 @@
+with Ada.Text_IO;
 package body oxygenLevel is
 
-   procedure decrementoxygen (oxylvl : in out oxygenLevel) is
+   procedure decrementoxygen (oxylvl : in out oxygenLevelInt) is
    begin
       if oxylvl > 1 then
          oxylvl := oxylvl -1;
-      else 
-         oxylvl := oxylvl;
+         
+      elsif oxylvl <= 3 then
+            Ada.Text_IO.Put_Line("warning");
       end if;
       
    end decrementoxygen;
-   
-   
+         
 
 end oxygenLevel;
