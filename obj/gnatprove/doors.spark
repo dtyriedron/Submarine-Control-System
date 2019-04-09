@@ -9,26 +9,6 @@
         }
       ],
       "spark": "no"
-    },
-    {
-      "name": "doors.closeDoorInvariant",
-      "sloc": [
-        {
-          "file": "doors.ads",
-          "line": 31
-        }
-      ],
-      "spark": "no"
-    },
-    {
-      "name": "doors.closeDoorsInvariant",
-      "sloc": [
-        {
-          "file": "doors.ads",
-          "line": 34
-        }
-      ],
-      "spark": "no"
     }
   ],
   "flow": [
@@ -38,14 +18,14 @@
   "assumptions": [
   ],
   "timings": {
-    "marking": 3.10770003125072E-04,
-    "globals (basic)": 2.78338004136458E-04,
-    "globals/properties (advanced)": 6.16202014498413E-04,
-    "flow analysis": 9.81170014711097E-05,
-    "codepeer results": 5.33599995833356E-06,
-    "init_why_sections": 2.69717012997717E-04,
-    "translation of standard": 3.73128801584244E-03,
-    "translation of compilation unit": 3.97760514169931E-03,
-    "proof": 2.05299988920160E-06
+    "marking": 2.25280004087836E-04,
+    "globals (basic)": 2.12931001442485E-04,
+    "globals/properties (advanced)": 3.89118999009952E-04,
+    "flow analysis": 5.24040005984716E-05,
+    "codepeer results": 4.21699996877578E-06,
+    "init_why_sections": 1.94859996554442E-04,
+    "translation of standard": 2.84671201370656E-03,
+    "translation of compilation unit": 1.60255597438663E-03,
+    "proof": 3.31199998981901E-06
   }
 }

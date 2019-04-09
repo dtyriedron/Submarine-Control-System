@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "reactor.incrementHeat",
+      "sloc": [
+        {
+          "file": "reactor.ads",
+          "line": 9
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.80404997081496E-04,
+    "globals (basic)": 1.63236996741034E-04,
+    "globals/properties (advanced)": 4.10501990700141E-04,
+    "flow analysis": 6.62590027786791E-05,
+    "codepeer results": 3.61399997927947E-06,
+    "init_why_sections": 2.08112003747374E-04,
+    "translation of standard": 2.76900897733867E-03,
+    "translation of compilation unit": 4.68026992166415E-04,
+    "proof": 3.61399997927947E-06
+  }
+}

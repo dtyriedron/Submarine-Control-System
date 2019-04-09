@@ -18,14 +18,14 @@
   "assumptions": [
   ],
   "timings": {
-    "marking": 1.43684796057642E-03,
-    "globals (basic)": 3.01320105791092E-01,
-    "globals/properties (advanced)": 2.74409167468548E-02,
-    "flow analysis": 1.17821997264400E-04,
-    "codepeer results": 9.85200040304335E-06,
-    "init_why_sections": 2.63558991719037E-04,
-    "translation of standard": 4.04411088675261E-03,
-    "translation of compilation unit": 4.17211316525936E-02,
-    "proof": 2.87300008494640E-06
+    "marking": 1.06826995033771E-03,
+    "globals (basic)": 1.26364249736071E-02,
+    "globals/properties (advanced)": 1.93366780877113E-02,
+    "flow analysis": 9.33639967115596E-05,
+    "codepeer results": 4.21699996877578E-06,
+    "init_why_sections": 1.95764005184174E-04,
+    "translation of standard": 3.02771804854274E-03,
+    "translation of compilation unit": 2.57905703037977E-02,
+    "proof": 2.10799998967559E-06
   }
 }
