@@ -8,7 +8,7 @@ package reactor is
    
    procedure incrementHeat (relvl : in out reactorLevelInt) with
      Depends => (relvl => relvl),
-     Pre => relvl < 11,
+     Pre => relvl < 12,
      Post => relvl = relvl'Old +1 and relvl=12;
    
 

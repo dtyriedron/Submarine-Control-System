@@ -1,6 +1,7 @@
 with doors; use doors;
 with oxygenLevel; use oxygenLevel;
 with reactor; use reactor;
+with torpedo; use torpedo;
 
 package Submarine with SPARK_Mode
 is
@@ -25,6 +26,7 @@ is
       -- the temp of the reactor increase over time when it reaches max temp (6),
       -- the resurface procedure will be invoked.
       rt : reactorLevelInt := 0;
+
    end record;
 
    -- invarient to make sure one door is closed at all times
@@ -43,15 +45,17 @@ is
      Pre => ((ox = 0) or (rt = 12 and ox > 0)) and dl > 0 and dl > depthLevel'First and closeDoorsInvariant(ds),
      Post => dl = 0;
 
-   procedure increaseDepth (dl : in out depthLevel; ox : in out oxygenLevelInt ; ds : in DoorsArray ; rt : in out reactorLevelInt) with
+   procedure increaseDepth (dl : in out depthLevel; ox : in oxygenLevelInt ; ds : in DoorsArray) with
      Pre => ox >= 0 and ox <= 8 and dl >= 0 and dl < 6 and closeDoorsInvariant(ds),
      Post => dl = dl'Old +1 and dl <=6;
 
    doorArray : DoorsArray := (others => (doorStatus => Closed, alock => (lockStatus => Locked)));
+   --torbchamb : torpedoChamber := (others=> (torpedoType => (torpedoStatus=> Loaded), hatches=> (others=>(hatchStatus=> Closed))));
 
    GreenSub : SubmarineType := (ds => doorArray, ox => 8, dl => 0, rt => 0);
 
 
---     procedure run (sub : in out SubmarineType);
---  --       Pre => sub.dl<6
+   procedure run with
+   Global => (In_Out => GreenSub),
+         Pre => closeDoorsInvariant(GreenSub.ds);
    end Submarine;

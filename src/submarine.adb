@@ -11,16 +11,16 @@ is
 
    end decreaseDepth;
 
-   procedure increaseDepth (dl : in out depthLevel; ox : in out oxygenLevelInt ; ds : DoorsArray ; rt : in out reactorLevelInt) is
+   procedure increaseDepth (dl : in out depthLevel; ox : in oxygenLevelInt ; ds : DoorsArray) is
    begin
       if dl<6 then
          dl := dl +1;
-         if (ox /= 0) then
-            decrementoxygen(oxylvl => ox);
-         end if;
-         if rt < 11 then
-            incrementHeat(relvl => rt);
-         end if;
+--           if (ox /= 0) then
+--              decrementoxygen(oxylvl => ox);
+--           end if;
+--           if rt < 11 then
+--              incrementHeat(relvl => rt);
+--           end if;
 
       end if;
 
@@ -35,20 +35,27 @@ is
    end resurface;
 
 
---         procedure run (sub : in out SubmarineType)is
---         begin
---            while ((sub.dl <6 and sub.dl>=0) and (sub.ox>=0 and sub.ox <=8) and closeDoorsInvariant(sub.ds)) loop
---               increaseDepth(sub.dl, sub.ox, sub.ds, sub.rt);
---           if sub.ox = 0 then
---              --Ada.Text_IO.Put_Line("resurfacing");
---                resurface(sub.dl, sub.ox, sub.ds, sub.rt);
---             end if;
---             if sub.rt = 12 then
---                --Ada.Text_IO.Put_Line("resurfacing");
---                resurface(sub.dl, sub.ox, sub.ds, sub.rt);
---             end if;
---
---            end loop;
---
---     end run;
+         procedure run is
+         begin
+            while ((GreenSub.dl <6 and GreenSub.dl>=0) and (GreenSub.ox>=0 and GreenSub.ox <=8) and closeDoorsInvariant(GreenSub.ds) and GreenSub.rt>=0 and GreenSub.rt<=12) loop
+         increaseDepth(GreenSub.dl, GreenSub.ox, GreenSub.ds);
+         decrementoxygen(GreenSub.ox);
+
+
+          if GreenSub.ox = 0 then
+             --Ada.Text_IO.Put_Line("resurfacing");
+                resurface(GreenSub.dl, GreenSub.ox, GreenSub.ds, GreenSub.rt);
+            end if;
+             if GreenSub.rt = 12 and (GreenSub.dl <6 and GreenSub.dl>0) and (GreenSub.ox>=0 and GreenSub.ox <=8) and closeDoorsInvariant(GreenSub.ds) then
+                --Ada.Text_IO.Put_Line("resurfacing");
+                resurface(GreenSub.dl, GreenSub.ox, GreenSub.ds, GreenSub.rt);
+         elsif GreenSub.rt<12 then
+            -- Ada.Text_IO.Put_Line("hey");
+           incrementHeat(GreenSub.rt);
+         end if;
+
+
+            end loop;
+
+     end run;
    end Submarine;
