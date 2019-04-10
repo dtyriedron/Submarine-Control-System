@@ -1,3 +1,92 @@
 \section{Proof of Consistency}
 Proof of consistency was used to test and prove that the code used to make sure the requirements were met.
 
+A key procedure is the \textit{decreaseDepth} procedure. The precondition is the depth level (dl) is higher than the first instance of the depth level (dl'First) and the oxygen level (ox) is higher than or equal to 0. The doors are also to be closed. The postcondition is that the depth level is one lower than the old instance of the depth level (dl'Old). The procedure's body is such the depth level is assigned to be 1 less than the current depth level.
+
+Therefore the premises are:
+\begin{itemize}
+	\item dl $>$ dl'First
+	\item ox $\geq{0}$
+	\item doors are closed
+	\item dl = dl'Old-1
+\end{itemize}
+
+The conclusions are:
+
+\begin{itemize}
+	\item dl-1 $>$ dl'First
+	\item  ox $\geq{ 0}$
+	\item doors are closed
+	\item dl-1 $<$ dl'Old-1
+\end{itemize}
+
+As the doors are closed and the oxygen level stays the same in the premises and conclusions they are omitted.
+
+The proof is:
+
+
+\[
+	(dl>dl'First, dl= dl'Old-1) \Rightarrow{} (dl-1>dl'First, dl-1>dl'Old-1)
+\]
+\[
+A_X
+\]
+\[
+	(dl>dl'First, dl= dl'Old-1) \Rightarrow{} (dl-1>dl'First \lor{ dl-1>dl'Old-1})
+\]
+\[
+	R_\lor{}
+\]
+\[
+	(dl>dl'First \land{dl= dl'Old-1)} \Rightarrow{} (dl-1>dl'First \lor{ dl-1>dl'Old-1})
+\]
+\[
+	L_\land{}
+\]
+\[
+	\Rightarrow{} (dl>dl'First \land{dl= dl'Old-1)} \supset (dl-1>dl'First \lor{ dl-1>dl'Old-1})
+\]
+\newpage
+
+Another key procedure is the \textit{incrementTemperature} procedure in the \textit{incrementTemperature} procedure in the reactor package. A precondition was set up to check that the reactor temperature (rt) was less than 12. The postcondition contained the reactor temperature being 1 higher than the old reactor temperature (rt'Old) and that the reactor temperature was less than or equal to 12. The procedure's body checks that the reactor temperature is less than 12 and then assigns the temperature to be one more than the current reactor temperature. 
+
+Therefore the premises are: 
+\begin{itemize}
+	\item rt $<$ 12
+	\item rt = rt'Old+1
+\end{itemize}
+
+The conclusions are:
+
+\begin{itemize}
+	\item rt $\leq{12}$ 
+	\item  rt +1 $>$ rt'Old +1
+\end{itemize}
+
+The proof is:
+
+
+\[
+(rt < 12, rt = rt'Old+1) \Rightarrow{} (rt\leq{12}, rt+1 > rt'Old+1)
+\]
+\[
+A_X
+\]
+\[
+(rt < 12, rt = rt'Old+1) \Rightarrow{} (rt\leq{12} \lor{} rt+1 > rt'Old+1)
+\]
+\[
+	R_\lor{}
+\]
+\[
+(rt < 12 \land{} rt = rt'Old+1) \Rightarrow{} (rt\leq{12} \lor{} rt+1 > rt'Old+1)
+\]
+\[
+	L_\land{}
+\]
+\[
+\Rightarrow{} (rt < 12 \land{} rt = rt'Old+1) \supset{} (rt\leq{12} \lor{} rt+1 > rt'Old+1)
+\]
+
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.22)  10 APR 2019 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.4)  10 APR 2019 14:42
 entering extended mode
 **./formal.tex
 (formal.tex
@@ -6,9 +6,9 @@ LaTeX2e <2018-12-01>
 (llncs.cls
 Document Class: llncs 2014/03/31 v2.19 
  LaTeX document class for Lecture Notes in Computer Science
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,9 +22,9 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.s
+) ("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.s
 ty"
-Package: multicol 2018/11/09 v1.8u multicolumn formatting (FMi)
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \c@tracingmulticols=\count88
 \mult@box=\box27
 \multicol@leftmargin=\dimen103
@@ -72,7 +72,7 @@ Package: multicol 2018/11/09 v1.8u multicolumn formatting (FMi)
 \colbreak@box=\box52
 \mc@col@check@num=\count96
 )
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\aliascnt.
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\aliascnt.
 sty"
 Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
 )
@@ -127,29 +127,29 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@remark=\count116
 \headlineindent=\dimen124
 )
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
 sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
 y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
 sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
 ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
 x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
@@ -171,7 +171,7 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
@@ -186,49 +186,49 @@ df.mkii"
 \makeMPintoPDFobject=\count122
 \everyMPtoPDFconversion=\toks20
 )
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
 base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
 rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
 y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
 ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
 .sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
 .sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
 ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
 s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
 x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
 mds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\Dylan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+("C:\Users\40203\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
 ty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
@@ -248,30 +248,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 5.
-) (Abstract.tex) (Introduction.tex) (Controller.tex [1
+) (Introduction.tex) (Controller.tex) (Descriptions.tex
+[1
 
-{C:/Users/Dylan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (Descripti
-ons.tex
-[2] [3]) (Proof.tex [4]) (Conclusion.tex) [5] (formal.aux) ) 
+{C:/Users/40203/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+[3]) (Proof.tex [4] [5]) (Conclusion.tex) [6] (formal.aux) ) 
 Here is how much of TeX's memory you used:
- 1853 strings out of 492946
- 27030 string characters out of 3126266
- 99571 words of memory out of 3000000
- 5737 multiletter control sequences out of 15000+200000
- 6111 words of font info for 22 fonts, out of 3000000 for 9000
+ 1846 strings out of 492945
+ 26888 string characters out of 3126253
+ 99618 words of memory out of 3000000
+ 5735 multiletter control sequences out of 15000+200000
+ 5803 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,25p,1011b,160s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Dylan/App
+ 41i,4n,25p,1011b,160s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/40203/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
-ers/Dylan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><C:/Users/Dylan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmbx9.pfb><C:/Users/Dylan/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/Dylan/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Dylan/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on formal.pdf (5 pages, 97319 bytes).
+ers/40203/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><C:/Users/40203/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Users/40203/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Users/40203/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/40203/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/40203/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/4
+0203/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+><C:/Users/40203/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmti10.pfb>
+Output written on formal.pdf (6 pages, 124084 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
