@@ -1,7 +1,16 @@
 \section{Introduction}\label{submarine}
-Sections look like this
+A submarine system was implemented using Ada and was proven by SPARK. The submarine system was implemented based on the following rules: 
 
 \begin{itemize}
-\item non-numbered lists look like this.
+	\item The submarine must have at least one airlock door closed at all times.
+	\item The submarine can perform no operations unless both doors are closed and
+	locked.
+	\item If the oxygen runs out, the submarine has to surface.
+	\item If the reactor overheats, the submarine has to surface.
+	\item If the oxygen runs low, a warning must be shown.
+	\item The submarine cannot dive beneath a certain depth.
+	\item The submarine must be capable of storing, loading and firing torpedoes
+	safely.
 \end{itemize}
-Internal referencing is done like this \S\ref{submarine}.
+
+The system must carry out these requirements to a certain proven standard of SPARK. The system will aim to meet the platinum standard with all requirements covered. 

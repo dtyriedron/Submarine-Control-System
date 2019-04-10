@@ -1,1 +1,47 @@
 \section{Desciptions of Procedures and Functions}
+The controller consists of many small parts. The first thing to do was to make a \textit{submarineType} record. The record would be used to store an instance of a submarine and allow, for example, it's depth to be changed. The \textit{submarineType} contained an array of type "Door" which contained two doors that formed an air-lock. The oxygen level was updated using an integer with initial value of 8. An integer was also set up to update the \textit{depthLevel} and the \textit{reactorLevel} both with initial values set to zero.
+
+\subsection{First Requirement}
+The first requirement was to make sure that at least one door was closed at all times. This was done by creating a Door record with a \textit{doorStatus} variable attached to it to set the door to either closed or open. This door also had a lock attached to it, the lock had a \textit{lockStatus} to set the door to be locked or unlocked. An array of Doors was set up with a range of 2.
+
+ A procedure was created to control the locking of doors: \textit{closeDoors}, the procedure closes both doors of the submarine. The procedure took as input an array of doors. Every door of the array was closed and locked in the procedure's body, this was then made certain by checking that the status of every door and lock in the array was closed and locked using a post-conditon. An invariant was set up to use in pre-conditions for other functions in the submarine file that checked if both doors in the array were closed and locked. The invariant was placed in the submarine file so that it could be used by the functions of the submarine to check that the doors are locked before starting each function.
+
+\subsection{Second Requirement}
+The second requirement was to ensure that the submarine could not perform any operations unless two doors were locked and closed (airlocked). The second requirement was handled using the same solution as the first requirement (using the \textit{closeDoors} procedure and invariant).
+
+\subsection{Third Requirement}
+For the third requirement, the submarine first had to have the ability to change depths. Secondly, it had to be ensured that a warning had to shown if the oxygen levels of the submarine went below a certain threshold (3). The submarine also has to re-surface after the oxygen level is zero.  
+
+In the submarine file the movement was controlled. Three procedures were set up to handle the movement:
+\begin{itemize}
+	\item \textit{increaseDepth} - with parameters: depth level, oxygen level and an array of doors.
+	\item \textit{resurface} - with parameters: depth level, oxygen level, an array of doors and reactor temperature.
+	\item \textit{decreaseDepth} - with parameters: depth level, oxygen level and an array of doors.
+\end{itemize}
+
+The \textit{increaseDepth} procedure contained a pre-condition that consisted of the oxygen level being higher than zero and lower than or equal to 8. It also made sure that the depth was higher than or equal to zero and lower than 6 and that both doors were closed. Through a post condition it also ensured that the depth would increase one higher than the old depth and that the depth would not go any higher than 6.
+
+The \textit{resurface} procedure contained a pre-condition that consisted of the oxygen level either equalling zero or was higher than zero and the reactor temperature was 12. The depth had to be higher than zero and both doors were closed. Through a post-condition of the depth level being zero a while loop ensured that the submarine would go straight back up to the surface.
+
+The \textit{decreaseDepth} procedure contained a pre-condition that consisted of the oxygen level being higher than or equal to zero and the depth level was higher the first instance of the depth level and that both doors of the submarine were closed. A post-condition consisting of the depth level being 1 less than the old depth level ensured that the submarine decreased in depth. 
+
+The submarine was also set up to manage oxygen levels. The oxygen level was decreased using a procedure called \textit{decrementOxgen} it took in an oxygen level and decremented it. If the oxygen was low enough (3), it sends a warning to the submarine. A pre-condition was set up to check if the oxygen level was lower than or equal to 8. A post-condition ensured that the oxygen level would decrease which consisted of the oxygen level being 1 less than the old oxygen level and the oxygen level was higher than or equal to zero.
+
+
+\subsection{Fourth Requirement}
+The fourth requirement is that the submarine must surface if the nuclear reactor overheats. Another file was created to keep the reactor code separate. A procedure was set up to increase the heat of the reactor by incrementing the inputted variable \textit{reactorLevel}. A pre-condition was set up to check that the reactor temperature was less than 12. The post-condition contained the reactor temperature being 1 higher than the old reactor temperature and that the reactor temperature was less than or equal to 12.
+
+\subsection{Fifth Requirement}
+Another requirement is that the submarine cannot dive beneath a certain depth. This was handled from within the \textit{increaseDepth} procedure in the submarine file.
+
+\subsection{Sixth Requirement}
+The last requirement was to make sure the submarine could load, store and fire torpedoes safely. Another file to separate the torpedo code from the main submarine code was created. In the torpedo file the following was set up: \begin{itemize}
+	\item \textit{torpedoType} that has a \textit{torpedoStatus}. 
+	\item \textit{torpedoChamber} that contains a torpedo and 2 hatches.
+	\item \textit{torpedoes} an array of torpedoes with size of 2.
+	\item \textit{hatch} that has a \textit{hatchStatus}.
+	\item \textit{hatches} an array of hatches with size of 2.
+	\item \textit{torpedoStatus} which has 3 states fired, stored, loaded.
+	\item \textit{hatchStatus} which is either open or closed.
+\end{itemize}
+
